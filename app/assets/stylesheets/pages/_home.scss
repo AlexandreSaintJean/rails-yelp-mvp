@@ -2,3 +2,24 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
+
+
+.list {
+  background-color: #F7F7F9;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px grey;
+  border-left: 4px solid #02A8F3;
+
+  a {
+    text-decoration: none;
+    color: #626262;
+    &:hover {
+      color: #02A8F3;
+    }
+  }
+  li {
+    list-style-type: none;
+  }
+}
